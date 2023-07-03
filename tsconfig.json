@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node"],
     "outDir": "build",
     "target": "es5",
     "module": "commonjs",
