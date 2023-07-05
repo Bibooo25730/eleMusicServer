@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
-const uesrSchems = new mongoose.Schema({
-    userName:{
+const usrSchemas = new mongoose.Schema({
+    username:{
         type:String,
         required:[true,"Please add the user name"]
     },
@@ -18,4 +18,4 @@ const uesrSchems = new mongoose.Schema({
     timestamps:true
 })
 
-module.exports=mongoose.model("User",uesrSchems)
+module.exports=mongoose.model("User",usrSchemas)
