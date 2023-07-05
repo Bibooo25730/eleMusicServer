@@ -1,5 +1,3 @@
-> npm i dotenv
-
 ### 请求正文未定义
 
 > 正是每当你需要从客户端接受一些数据到我们的服务器时，我们需要使用正文解析器，以便可以解析请求体的流。
@@ -22,6 +20,13 @@
 
 #### url
 
-/子系统/模块名/资源名
+/api/模块名/资源名
 
+#### jwt
+https://jwt.io/
 
+#### 注释
+
+//@desc Get all contacts
+//@route Get /api/
+//@access public
